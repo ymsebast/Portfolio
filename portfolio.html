@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+    <title>Portfolio</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+        integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+        integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+        crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Ynah Sebastian</h3>
+                <strong>YS</strong>
+            </div>
+
+            <ul class="list-unstyled components">
+
+                <li>
+                    <a href="./index.html">
+                        <i class="fas fa-briefcase"></i>
+                        About Me
+                    </a>
+
+                </li>
+                <li>
+                    <a href="./portfolio.html">
+                        <i class="fas fa-image"></i>
+                        Portfolio
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./contact.html">
+                        <i class="fas fa-paper-plane"></i>
+                        Contact
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="list-unstyled CTAs">
+                <li>
+                    <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download resume</a>
+                </li>
+                <li>
+                    <a href="img/Trans.pdf"" class=" download">Download transcript</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Top NavBar  -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="./index.html">About Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Portfolio Content -->
+            <div class="container">
+
+                <!-- Header -->
+                <h1 class="mt-4 mb-3">
+                    <small>My Portfolio</small>
+                </h1>
+
+                <!-- Projects -->
+                <div class="row">
+                    <div class="col-lg-4 mb-4">
+                        <div class="card h-100 text-center">
+                            <img class="card-img-top" src="./img/diyknot.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Wedding Planner App</h5>
+                                <p class="card-text">
+                                    A platform for beautiful, budget-conscious, DIY wedding planning that consolidates
+                                    the elements of the process, including budgeting, task scheduling, venue sourcing,
+                                    dress selection, catering, and inspiration.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="https://ymsebast.github.io/Project1/">visit website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="card h-100 text-center">
+                            <img class="card-img-top" src="./img/AndrSt1.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Android Games</h5>
+                                <p class="card-text">
+
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="https://ymsebast.github.io/Project1/">visit website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="card h-100 text-center">
+                            <img class="card-img-top" src="img/FridgeBridge.png" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title"> FridgeBridge</h4>
+                                <p class="card-text">Senior Design Project integrating IoT capabilities to a
+                                    refrigerator.
+
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="https://github.com/ymsebast/FridgeBridge">View source code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row -->
+
+                <div class="row">
+                    <div class="col-lg-4 mb-4">
+                        <div class="card h-100 text-center">
+                            <img class="card-img-top" src="img/sql.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Bamazon Node</h5>
+                                <p class="card-text">
+                                    Used Javascript, Node.js and MySQL to develop amazon-like storefront. The app will
+                                    take in
+                                    orders from customers and
+                                    deplete stock from the store's inventory.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="https://github.com/ymsebast/mySQL">View source code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="card h-100 text-center">
+                            <img class="card-img-top" src="img/survey.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Friend Finder</h5>
+                                <p class="card-text">
+                                    A compatibility-based application.
+                                    Full-stack site that matches user's survey results with other results.The app will
+                                    then display the name and picture
+                                    of the user with the best overall match.
+                                    (soon to deploy on Heroku)
+                                    Used Javascript, Node.js, and Express to handle Web API Routing.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="https://github.com/ymsebast/FriendFinder/tree/master/FriendFinder">View source
+                                    code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.container -->
+
+
+
+
+</body>
+
+</html>
